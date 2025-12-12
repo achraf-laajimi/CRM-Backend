@@ -33,7 +33,7 @@ app.use(
     secret: "cyberwolve",
     resave: false,
     saveUninitialized: false,
-    store: MongoStore.create({ mongoUrl: process.env.MONGO_URL || 'mongodb+srv://nourelhoudakhelifi:Ek6c0CfdHWuWkXuC@crmdb.yt53sis.mongodb.net/CRM?retryWrites=true&w=majority&appName=CRMDB'}),
+    store: MongoStore.create({ mongoUrl: process.env.MONGO_URL || '' }),
     cookie: {
       maxAge: 24 * 60 * 60 * 1000, // 24 hours
     },
